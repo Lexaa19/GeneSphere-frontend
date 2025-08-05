@@ -23,7 +23,7 @@ const navigate = useNavigate();
         <div className="hero-content" style={{ position: "relative", zIndex: 2 }}>
 
         <div className="hero-logo">🧬</div>
-        <h1 className="hero-title">GeneCore</h1>
+        <h1 className="hero-title">Gene Sphere</h1>
         <h2 className="hero-sub">Advanced Genetics Platform</h2>
         <div className="hero-desc">
           Explore, analyze, and visualize genetic data with cutting-edge tools.
