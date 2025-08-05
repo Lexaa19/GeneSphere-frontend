@@ -28,32 +28,7 @@ const navigate = useNavigate();
         <div className="hero-desc">
           Explore, analyze, and visualize genetic data with cutting-edge tools.
         </div>
-        <div className="hero-cards">
-          <div className="hero-card">
-            <div className="card-icon">📊</div>
-            <div className="card-title">Dashboard</div>
-            <div className="card-desc">Overview of your genetic metrics</div>
-            <button className="card-btn" onClick={() => navigate("/dashboard")}>Go</button>
-          </div>
-          <div className="hero-card">
-            <div className="card-icon">🗂️</div>
-            <div className="card-title">Gene Database</div>
-            <div className="card-desc">Browse and search gene profiles</div>
-            <button className="card-btn" onClick={() => navigate("/database")}>Go</button>
-          </div>
-          <div className="hero-card">
-            <div className="card-icon">🧪</div>
-            <div className="card-title">Analysis</div>
-            <div className="card-desc">Run advanced genetic analyses</div>
-            <button className="card-btn" onClick={() => navigate("/analysis")}>Go</button>
-          </div>
-          <div className="hero-card">
-            <div className="card-icon">📄</div>
-            <div className="card-title">Reports</div>
-            <div className="card-desc">View and export analysis reports</div>
-            <button className="card-btn" onClick={() => navigate("/reports")}>Go</button>
-          </div>
-        </div>
+       
       </div>
     </div>
   );
