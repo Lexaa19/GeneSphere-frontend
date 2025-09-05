@@ -1,0 +1,107 @@
+/* Background & App Container */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-bg {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+   background: black
+}
+
+.app-bg {
+  min-height: 100vh;
+  background: black;
+  color: #fff;
+  font-family: 'Nunito Sans', 'Segoe UI', Arial, sans-serif;
+}
+
+.hero-content {
+  z-index: 2;
+  position: relative;
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+  padding: 200px 16px 0 16px;
+}
+
+.hero-logo {
+  font-size: 4.2rem;
+  margin-bottom: 8px;
+  animation: pulseLogo 2.5s infinite;
+}
+
+@keyframes pulseLogo {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.08);}
+  100% { transform: scale(1);}
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #181818; /* elegant deep black */
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+  text-shadow:
+    0 2px 12px rgba(0,0,0,0.18),
+    0 1px 0 #fff; /* subtle highlight for elegance */
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-sub {
+  font-size: 1.9rem;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.card-btn {
+  background: linear-gradient(90deg,#af53f7 20%,#6133b4 80%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 26px;
+  font-size: 1.07rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: auto;
+  box-shadow: 0 2px 12px 0 rgba(39, 10, 69, 0.10);
+  transition: background 0.19s;
+}
+
+.card-btn:hover {
+  background: linear-gradient(90deg,#8d2ee6 20%,#47217a 80%);
+}
+
+
+.hero-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats-actions {
+  margin-bottom: 32px; /* space between button and card */
+}
+
