@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import { Renderer, Program, Mesh, Triangle } from "ogl";
 
-import './LiquidChrome.css';
+import './styles/LiquidChrome.css';
 
 export const LiquidChrome = ({
   baseColor = [0.1, 0.1, 0.1],
