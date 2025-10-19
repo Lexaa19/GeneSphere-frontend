@@ -8,10 +8,10 @@ const API_BASE = "http://localhost:8080";
 // basic client side validation (common gene names are uppercase letters)
 // this is not security it is UX + reducing bad requests. Server must still validate
 
-const GENE_SYMBOL_ALLOWED_LIST = /^[A-Za-z0-9_.-]{1,50}$/; // max 50 chars
+const GENE_SYMBOL_ALLOWED_LIST = /^[A-Za-z0-9_.-]{1,20}$/; // max 20 chars
 
 // normalize user input to a typical symbol format (trim + uppercase)
-function normalizeGeneSymbol(geneSymbol){
+export function normalizeGeneSymbol(geneSymbol){
     return String(geneSymbol || "").trim().toUpperCase();
 }
 
