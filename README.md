@@ -1,4 +1,5 @@
-# GeneSphere — Frontend (THIS APP IS A WORK IN PROGRESS]
+# GeneSphere — Frontend 
+## Please note that this app is a work in progress and for now only some in memory genes were added as it is not connected to the back-end (Spring Boot)
 
 [![Repo size](https://img.shields.io/github/repo-size/Lexaa19/GeneSphere-frontend)](https://github.com/Lexaa19/GeneSphere-frontend)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#contributing)
