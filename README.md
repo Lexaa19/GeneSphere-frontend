@@ -1,7 +1,6 @@
-# GeneSphere — Frontend
+# GeneSphere — Frontend (THIS APP IS A WORK IN PROGRESS]
 
 [![Repo size](https://img.shields.io/github/repo-size/Lexaa19/GeneSphere-frontend)](https://github.com/Lexaa19/GeneSphere-frontend)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#contributing)
 
 > Frontend for GeneSphere — an interactive web application for exploring and visualizing genomic / gene-related data (focused on lungs).
