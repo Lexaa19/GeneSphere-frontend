@@ -8,6 +8,7 @@ import MagicCard from './MagicCardEffect';
 import './styles/magicCardEffect.css';
 import HomepageTextEffect from "./HomepageTextEffect";
 import StatisticsSection from './StatisticsSection';
+import SearchBar from './SearchBar';
 
 function App() {
 
@@ -37,6 +38,9 @@ const navigate = useNavigate();
         <h2 className="hero-sub">Explore Cancer Genomics Data</h2>
       <div className="hero-cards-container">
       <StatisticsSection />
+      <div>
+        <SearchBar />
+      </div>
       <div className="hero-cards">
         <MagicCard
           textAutoHide={true}
@@ -51,6 +55,7 @@ const navigate = useNavigate();
           glowColor="132, 0, 255"
         />
       </div>
+      
     </div>
     </div>
     </div>
